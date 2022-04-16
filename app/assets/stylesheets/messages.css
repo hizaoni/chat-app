@@ -2,21 +2,52 @@
 .side_bar_main{
   background-color: #253141;
   width: 300px;
-  height: 100vw;
+  height: 100vh;
 }
 
 .side_bar_header{
   height: 100px;
   width: 300px;
   padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.user_nane a{
+  font-size: 16px;
+  color: #FAFAFA;
+  text-decoration: none;
+}
+
+.create_roon a{
+  font-size: 10px;
+  color: deepskyblue;
+  text-align: center;
+  border: 1px solid lightblue;
+  padding: 14px;
+  text-decoration: none;
+}
+
 
 .side_bar_chat{
   height: calc(100vh - 100px);
   width: 300px;
   background-color: #2F3E51;
-  padding: 0 20px;
+  padding: 20px;
+  overflow: scroll;
 }
+
+.chat_contents{
+  padding: 20px 0 40px;
+}
+
+.chat_content a{
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+}
+
 
 /* 以降、_main_chat.html.erbの装飾 */
 
