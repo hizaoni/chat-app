@@ -1,0 +1,51 @@
+/* 以降、_side_bar.html.erbの装飾 */
+.side_bar_main{
+  background-color: #253141;
+  width: 300px;
+  height: 100vw;
+}
+
+.side_bar_header{
+  height: 100px;
+  width: 300px;
+  padding: 0 20px;
+}
+
+.side_bar_chat{
+  height: calc(100vh - 100px);
+  width: 300px;
+  background-color: #2F3E51;
+  padding: 0 20px;
+}
+
+/* 以降、_main_chat.html.erbの装飾 */
+
+.chat_page{
+  background-color: #ffffff;
+  width: calc(100vw - 300p);
+  height: 100vh;
+}
+
+
+.chat_page_header{
+  height: 100px;
+  width: calc(100vw - 300px);
+  background-color: #FFFFFF;
+  padding: 0 40px;
+
+}
+
+.chat_page_main{
+  height: calc(100vh - 100px - 90px);
+  width: calc(100vw -300px);
+  background-color: #FAFAFA;
+  padding: 46px 40px 0;
+}
+
+.chat_page_footer{
+  height: 90px;
+  width: calc(100vw -300px);
+  background-color: #DDDDDD;
+  padding: 20px 40px;
+
+}
