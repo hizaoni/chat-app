@@ -118,28 +118,23 @@
   height: 90px;
   background-color: #DDDDDD;
   padding: 20px 40px;
-
-}
-
-.chat_page_footer{
   display: flex;
-  justify-content: space-between;
-}
-
-.form-submit{
-  line-height: 50px;
-  font-size: 16px;
-  color: white;
-  background-color: #38AEF0;
-  margin-left: 15px;
-  padding: 0 20px;
-
 }
 
 .form-input{
+  background-color: white;
   width: 100%;
   display: flex;
-  background-color: white;
+}
+
+.form-submit {
+  background-color: #38AEF0;
+  border: none;
+  color: white;
+  font-size: 16px;
+  height: 50px;
+  margin-left: 15px;
+  padding: 0 20px;
 }
 
 .form-message {
