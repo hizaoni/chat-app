@@ -1,6 +1,6 @@
 <div class="side_bar_header">
   <div class="user_nane">
-  <a href="#">Tom</a>
+  <%= link_to current_user.name, edit_user_path(current_user) %>
   </div>
   <div class="create_roon">
   <a href="#">チャットを作成する</a>
